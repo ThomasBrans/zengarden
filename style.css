@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#css-zen-garden {
+    background-color: rgb(34, 23, 23);
+    background-color: rgb(34, 23, 23);
+    background-image: url("421509648.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-wrapper {
+
+    margin: 0px;
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    font-size: 30px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    color: darkred
+}
+
+
+.intro {
+    color: darkred;
+    margin: 50px;
+    
+}
+
+h1 {
+
+    font-size: 100px;
+    color: darkred;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+#zen-supporting {
+    display: flex;
+    flex-wrap: wrap;
+    color: darkred;
+}
+
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #474444;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
