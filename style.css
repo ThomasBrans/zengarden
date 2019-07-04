@@ -8,6 +8,7 @@
     background-color: rgb(34, 23, 23);
     background-color: rgb(34, 23, 23);
     background-image: url("421509648.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,17 +19,16 @@
     margin: 0px;
     margin-left: 160px;
     /* Same as the width of the sidenav */
-    font-size: 30px;
+    font-size: 28px;
     /* Increased text to enable scrolling */
     padding: 0px 10px;
-    color: darkred
 }
 
 
 .intro {
     color: darkred;
     margin: 50px;
-    
+    text-align: center;
 }
 
 h1 {
@@ -37,8 +37,9 @@ h1 {
     color: darkred;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
+
 
 
 
@@ -46,7 +47,10 @@ h1 {
 #zen-supporting {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     color: darkred;
+    font-family: 'Luminari', fantasy;
+    text-align: center;
 }
 
 .sidebar {
@@ -70,7 +74,7 @@ h1 {
 }
 
 .sidebar a:hover {
-    color: #474444;
+    color: #f1f1f1;
 }
 
 
@@ -83,4 +87,18 @@ h1 {
     .sidenav a {
         font-size: 18px;
     }
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding-top: 150px;
+
+
+}
+.h3{
+    padding: 50 px;
+    margin: 50 px;
+    
 }
